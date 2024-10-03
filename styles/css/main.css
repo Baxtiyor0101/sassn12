@@ -1,0 +1,81 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: #333;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 60px;
+}
+nav ul li {
+  margin-left: 20px;
+}
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+nav ul li a:hover {
+  color: #e34646;
+}
+nav ul li a:active {
+  color: #a2c346;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+body {
+  background-color: green;
+}
+
+main {
+  padding-top: 60px;
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: calc(100vh - 60px);
+}
+main h1 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+main p {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+main input {
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+main input:focus {
+  background-color: #a2c346;
+}/*# sourceMappingURL=main.css.map */
